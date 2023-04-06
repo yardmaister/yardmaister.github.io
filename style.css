@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		background-color: #182945;
+		font-family: Tahoma, Geneva, sans-serif;
+		color: #222222;
+		margin: 0px;
+		padding: 0px;
+}
+
+h1, h2, h3, h4 {
+		color: #a1c436;	
+}
+
+h1 {
+		font-size: 35px;
+		font-weight: normal;
+		color: #182945;	
+		
+}
+
+
+logo h1 { margin-bottom: 1px; }
+logo h3 { margin-top: 1px; }
+
+#cover {
+		width: 300px;
+		height: 130px;
+		margin: 150px auto;	
+}
+
+#cover_content {
+		width: 900px;
+		min-height: 130px;
+		margin: 150px auto;	
+}
+
+#content {
+		width: 538px;
+		min-height: 130px;
+		float: left;
+		background-color: #ffffff;
+		padding: 10px 25px;	
+		margin-top: -31px;
+}
+
+#menu {
+		float: left;
+		text-align: right;
+		font-size:35px;
+}
+
+#menu ul {
+		width: 150px;
+		margin: 0px;
+		padding: 0px 10px;
+}
+#menu li {
+		list-style-type: none;
+			
+}
+
+#menu a, #menu a:link, #menu a:visited {
+		text-decoration: none;
+		color: #fbf6ce;
+}
+
+#menu a:hover {
+		text-decoration: none;
+		color: #a1c436;
+}
+
+#picture {
+		width: 130px;
+		height: 130px;
+		float: right;
+		background-color: #ffffff;	
+		margin: 0px;
+}
